@@ -1,4 +1,4 @@
-# 🕹️ ✊ 👆 🤘 🤟 🖐 Pyxel + MediaPipe = Air Pyxel
+# 🕹️ ✊ 👆 Pyxel + MediaPipe = Air Pyxel 🤘 🤟 🖐
 
 **Placez la main sous la webcam et jouez!**
 
