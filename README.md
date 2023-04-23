@@ -1,2 +1,2 @@
 # Pyxel + MediaPipe = Air Pyxel
-##🕹️ ✊ 👆 🤘 🤟 🖐
+## 🕹️ ✊ 👆 🤘 🤟 🖐
