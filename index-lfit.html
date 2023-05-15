@@ -15,7 +15,7 @@
         const col = Math.floor((screen_w - screen_h) / 2);
         let style = document.createElement("style");
         style.innerHTML = ".presentation {position:absolute;left:0;top:0;width:" + col + "px;height:" + screen_h + "px}";
-        style.innerHTML += ".default-pyxel-screen {position:absolute;left:" + col + "px;top:0;width:" + screen_h + "px;height:" + screen_h + "px}";
+        style.innerHTML += ".default-pyxel-screen {position:absolute;left:0px;top:0;width:" + screen_h + "px;height:" + screen_h + "px}";
         style.innerHTML += ".control {position:absolute;left:" + (screen_h + col) + "px;top:0;width:" + col + "px;height:" + screen_h + "px;border-radius:5px;}";
         style.innerHTML += "#output_canvas {width:" + (col - 20) + "px;height:" + (col - 20) + "px;border-radius:5px;margin:0px 10px 0 10px}";
         document.head.appendChild(style);
@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    <div class="presentation font-monospace p-3">
+  
 
         
 
@@ -31,13 +31,13 @@
     <div class="control fw-bold font-monospace text-center">
       
               <div class="text-danger">
-            <div class="fs-3 fw-bold text-center lh-sm mt-1 ms-5 ps-3">Spécialité NSI</div>
+            <div class="fs-4 fw-bold text-center lh-sm mt-1 ms-5 ps-3">Spécialité NSI</div>
             <div class="fs-6 fw-bold text-center m-0 ms-5 p-0 ps-4 lh-sm text-muted">&</div>
         </div>        
         <div class="text-danger">
             <div class="text-center mt-3"><img src="images/ndc2023.png" width="60%" /></div>
         </div>
-        <div class="fs-4 fw-bold text-center mt-5 mb-3">
+        <div class="fs-5 fw-bold text-center mt-5 mb-3">
             <img src="images/joystick.png" width="30" /><br />Placez la main droite, paume vers le bas, sous la webcam et jouez!
         </div>
       
