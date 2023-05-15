@@ -12,7 +12,7 @@
     <script>
         const screen_w = window.innerWidth;
         const screen_h = window.innerHeight;
-        const col = Math.floor((screen_w - screen_h) / 2);
+        const col = Math.floor((screen_w - screen_h));
         let style = document.createElement("style");
         style.innerHTML += ".default-pyxel-screen {position:absolute;left:0px;top:0;width:" + screen_h + "px;height:" + screen_h + "px}";
         style.innerHTML += ".control {position:absolute;left:" + screen_h + "px;top:0;width:" + col + "px;height:" + screen_h + "px;border-radius:5px;}";
